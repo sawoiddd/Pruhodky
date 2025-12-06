@@ -1,0 +1,773 @@
+{
+  "Programming": {
+    "Easy": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What data type does the expression 3 / 2 return in Python 3?",
+          "A": "int",
+          "B": "float",
+          "C": "str",
+          "D": "bool",
+          "Correct": "B"
+        },
+        "1": {
+          "question": "Which keyword is used to define a function?",
+          "A": "func",
+          "B": "def",
+          "C": "function",
+          "D": "lambda",
+          "Correct": "B"
+        },
+        "2": {
+          "question": "What is the output of len('Python')?",
+          "A": "5",
+          "B": "6",
+          "C": "7",
+          "D": "0",
+          "Correct": "B"
+        },
+        "3": {
+          "question": "Which of these is not a valid Python data type?",
+          "A": "tuple",
+          "B": "list",
+          "C": "set",
+          "D": "array",
+          "Correct": "D"
+        },
+        "4": {
+          "question": "What does the // operator do?",
+          "A": "Modulo",
+          "B": "True division",
+          "C": "Floor division",
+          "D": "Bitwise OR",
+          "Correct": "C"
+        },
+        "5": {
+          "question": "How do you start a comment in Python?",
+          "A": "//",
+          "B": "#",
+          "C": "<!--",
+          "D": "/*",
+          "Correct": "B"
+        },
+        "6": {
+          "question": "What is the correct way to create an empty dictionary?",
+          "A": "{}",
+          "B": "[]",
+          "C": "dict()",
+          "D": "Both A and C",
+          "Correct": "D"
+        },
+        "7": {
+          "question": "What does the expression 'a' * 3 evaluate to?",
+          "A": "'aaa'",
+          "B": "'a3'",
+          "C": "['a', 'a', 'a']",
+          "D": "Error",
+          "Correct": "A"
+        },
+        "8": {
+          "question": "What is the output of: type({1,2,3})?",
+          "A": "list",
+          "B": "set",
+          "C": "dict",
+          "D": "tuple",
+          "Correct": "B"
+        },
+        "9": {
+          "question": "Which statement creates a list?",
+          "A": "my_list = (1, 2, 3)",
+          "B": "my_list = [1, 2, 3]",
+          "C": "my_list = {1, 2, 3}",
+          "D": "my_list = <1, 2, 3>",
+          "Correct": "B"
+        }
+      }
+    },
+    "Medium": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What will range(5) produce?",
+          "A": "[1,2,3,4,5]",
+          "B": "[0,1,2,3,4]",
+          "C": "[0,1,2,3,4,5]",
+          "D": "Error",
+          "Correct": "B"
+        },
+        "1": {
+          "question": "What does dict.keys() return?",
+          "A": "A list",
+          "B": "A view object",
+          "C": "A tuple",
+          "D": "A set",
+          "Correct": "B"
+        },
+        "2": {
+          "question": "What happens here? a = [1,2]; b = a; b.append(3);",
+          "A": "Only b changes",
+          "B": "Only a changes",
+          "C": "Both change",
+          "D": "Error",
+          "Correct": "C"
+        },
+        "3": {
+          "question": "What is the output of sorted({3,1,2})?",
+          "A": "{1,2,3}",
+          "B": "[3,2,1]",
+          "C": "[1,2,3]",
+          "D": "Error",
+          "Correct": "C"
+        },
+        "4": {
+          "question": "What does 'hello'.capitalize() return?",
+          "A": "Hello",
+          "B": "HELLO",
+          "C": "hello",
+          "D": "hELLO",
+          "Correct": "A"
+        },
+        "5": {
+          "question": "What is the output of x = [1,2,3]; print(x[::-1])?",
+          "A": "[3,2,1]",
+          "B": "Error",
+          "C": "[1,2,3]",
+          "D": "[]",
+          "Correct": "A"
+        },
+        "6": {
+          "question": "What will my_list = [0]*5 create?",
+          "A": "[0,0,0,0,0]",
+          "B": "[5]",
+          "C": "[0,1,2,3,4]",
+          "D": "Error",
+          "Correct": "A"
+        },
+        "7": {
+          "question": "What is ' '.join(['A','B','C'])?",
+          "A": "'A B C'",
+          "B": "'ABC'",
+          "C": "['A','B','C']",
+          "D": "Error",
+          "Correct": "A"
+        },
+        "8": {
+          "question": "What does list(set([1,1,2,2,3])) produce?",
+          "A": "[1,1,2,2,3]",
+          "B": "[1,2,3] (order not guaranteed)",
+          "C": "Error",
+          "D": "[3,2,1]",
+          "Correct": "B"
+        },
+        "9": {
+          "question": "What is a lambda function?",
+          "A": "A function inside a class",
+          "B": "A function without a name",
+          "C": "A decorator",
+          "D": "A loop",
+          "Correct": "B"
+        }
+      }
+    },
+    "Hard": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What is the result of f calls with mutable default list?",
+          "A": "[1], [2]",
+          "B": "[1], [1,2]",
+          "C": "Error",
+          "D": "[1,2], [1,2]",
+          "Correct": "B"
+        },
+        "1": {
+          "question": "What is the output of shallow copy example?",
+          "A": "[1,2,3]",
+          "B": "[1,2,3,4]",
+          "C": "Error",
+          "D": "None",
+          "Correct": "A"
+        },
+        "2": {
+          "question": "What does {x: x*x for x in range(3)} evaluate to?",
+          "A": "{1:1, 2:4, 3:9}",
+          "B": "{0:0, 1:1, 2:4}",
+          "C": "[0,1,4]",
+          "D": "Error",
+          "Correct": "B"
+        },
+        "3": {
+          "question": "What is the output of bool(())?",
+          "A": "True",
+          "B": "False",
+          "C": "()",
+          "D": "Error",
+          "Correct": "B"
+        },
+        "4": {
+          "question": "What is the difference between is and ==?",
+          "A": "None",
+          "B": "is compares identity, == compares values",
+          "C": "== compares identity, is compares values",
+          "D": "Both compare types",
+          "Correct": "B"
+        },
+        "5": {
+          "question": "Which method runs when an object is created?",
+          "A": "__make__",
+          "B": "__init__",
+          "C": "__new__",
+          "D": "__start__",
+          "Correct": "B"
+        },
+        "6": {
+          "question": "What is the result of map(str, [1,2,3])?",
+          "A": "['1','2','3']",
+          "B": "A map object",
+          "C": "Error",
+          "D": "(1,2,3)",
+          "Correct": "B"
+        },
+        "7": {
+          "question": "What is the output of final i in loop?",
+          "A": "Error",
+          "B": "0",
+          "C": "2",
+          "D": "None",
+          "Correct": "C"
+        },
+        "8": {
+          "question": "What does *args represent?",
+          "A": "A list of required arguments",
+          "B": "A tuple of variable-length arguments",
+          "C": "A dictionary",
+          "D": "Type annotations",
+          "Correct": "B"
+        },
+        "9": {
+          "question": "What is output of fragile default list example?",
+          "A": "[1] [2] [3]",
+          "B": "[1,3] [2] [1,3]",
+          "C": "[1] [2] [1,3]",
+          "D": "[1,1] [2] [3]",
+          "Correct": "C"
+        }
+      }
+    }
+  },
+  "Math": {
+    "Easy": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What is 7 × 8?",
+          "A": "54",
+          "B": "56",
+          "C": "64",
+          "D": "48",
+          "Correct": "B"
+        },
+        "1": {
+          "question": "What is the square root of 81?",
+          "A": "8",
+          "B": "9",
+          "C": "7",
+          "D": "6",
+          "Correct": "B"
+        },
+        "2": {
+          "question": "What is 1/2 + 1/2?",
+          "A": "1",
+          "B": "2",
+          "C": "1/4",
+          "D": "0.5",
+          "Correct": "A"
+        },
+        "3": {
+          "question": "How many degrees in a right angle?",
+          "A": "45",
+          "B": "60",
+          "C": "90",
+          "D": "180",
+          "Correct": "C"
+        },
+        "4": {
+          "question": "What is the value of π (approximately)?",
+          "A": "2.14",
+          "B": "3.14",
+          "C": "4.13",
+          "D": "1.34",
+          "Correct": "B"
+        },
+        "5": {
+          "question": "Which number is even?",
+          "A": "17",
+          "B": "19",
+          "C": "21",
+          "D": "24",
+          "Correct": "D"
+        },
+        "6": {
+          "question": "Which is a prime number?",
+          "A": "9",
+          "B": "15",
+          "C": "21",
+          "D": "13",
+          "Correct": "D"
+        },
+        "7": {
+          "question": "What is 0.5 as a fraction?",
+          "A": "1/4",
+          "B": "1/2",
+          "C": "3/4",
+          "D": "2/1",
+          "Correct": "B"
+        },
+        "8": {
+          "question": "What is the perimeter of a square with side 3?",
+          "A": "12",
+          "B": "9",
+          "C": "6",
+          "D": "3",
+          "Correct": "A"
+        },
+        "9": {
+          "question": "What is 30% of 100?",
+          "A": "60",
+          "B": "10",
+          "C": "30",
+          "D": "3",
+          "Correct": "C"
+        }
+      }
+    },
+    "Medium": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "Solve: 3x − 9 = 0",
+          "A": "x = 3",
+          "B": "x = −3",
+          "C": "x = 9",
+          "D": "x = 1",
+          "Correct": "A"
+        },
+        "1": {
+          "question": "What is log₁₀(1000)?",
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "10",
+          "Correct": "C"
+        },
+        "2": {
+          "question": "What is the area of a circle with r = 3?",
+          "A": "6π",
+          "B": "9π",
+          "C": "3π",
+          "D": "π",
+          "Correct": "B"
+        },
+        "3": {
+          "question": "Simplify: (a² × a³)",
+          "A": "a⁵",
+          "B": "a⁶",
+          "C": "a²",
+          "D": "a³",
+          "Correct": "A"
+        },
+        "4": {
+          "question": "What is 12 ÷ 0.5?",
+          "A": "6",
+          "B": "20",
+          "C": "24",
+          "D": "2",
+          "Correct": "C"
+        },
+        "5": {
+          "question": "What is the median of 3, 8, 10, 15, 20?",
+          "A": "10",
+          "B": "8",
+          "C": "15",
+          "D": "12",
+          "Correct": "A"
+        },
+        "6": {
+          "question": "Which number is irrational?",
+          "A": "4",
+          "B": "2.5",
+          "C": "9",
+          "D": "√2",
+          "Correct": "D"
+        },
+        "7": {
+          "question": "What is |−27|",
+          "A": "-27",
+          "B": "0",
+          "C": "27",
+          "D": "-1",
+          "Correct": "C"
+        },
+        "8": {
+          "question": "What is the next prime after 23?",
+          "A": "25",
+          "B": "27",
+          "C": "29",
+          "D": "31",
+          "Correct": "C"
+        },
+        "9": {
+          "question": "What is the slope of the line y = 5x − 2?",
+          "A": "-2",
+          "B": "5",
+          "C": "0",
+          "D": "7",
+          "Correct": "B"
+        }
+      }
+    },
+    "Hard": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What is the limit? limₓ→0 (sin x) / x",
+          "A": "0",
+          "B": "1",
+          "C": "∞",
+          "D": "Undefined",
+          "Correct": "B"
+        },
+        "1": {
+          "question": "Integral of 1/x dx equals:",
+          "A": "x²/2",
+          "B": "ln|x| + C",
+          "C": "1/x²",
+          "D": "eˣ",
+          "Correct": "B"
+        },
+        "2": {
+          "question": "Solve the system: x + y = 10 x − y = 4",
+          "A": "(3, 7)",
+          "B": "(7, 3)",
+          "C": "(5, 5)",
+          "D": "(10, 4)",
+          "Correct": "B"
+        },
+        "3": {
+          "question": "Evaluate: Σ (k=1 to 5) of k²",
+          "A": "25",
+          "B": "55",
+          "C": "30",
+          "D": "50",
+          "Correct": "B"
+        },
+        "4": {
+          "question": "Solve: ln(e⁵)",
+          "A": "1",
+          "B": "5",
+          "C": "e",
+          "D": "0",
+          "Correct": "B"
+        },
+        "5": {
+          "question": "What is the discriminant of 2x² + 4x + 3?",
+          "A": "16",
+          "B": "4-24",
+          "C": "-8",
+          "D": "8",
+          "Correct": "C"
+        },
+        "6": {
+          "question": "A sequence: aₙ = 2ⁿ. What is a₅?",
+          "A": "10",
+          "B": "20",
+          "C": "16",
+          "D": "32",
+          "Correct": "D"
+        },
+        "7": {
+          "question": "What is ∫ cos(2x) dx ?",
+          "A": "sin(2x)",
+          "B": "2sin(2x)",
+          "C": "1/2sin(2x)",
+          "D": "−sin(2x)",
+          "Correct": "C"
+        },
+        "8": {
+          "question": "Solve the limit: limₓ→∞ (5x³ + 1)/(2x³ − 7)",
+          "A": "0",
+          "B": "∞",
+          "C": "5/2",
+          "D": "−7",
+          "Correct": "C"
+        },
+        "9": {
+          "question": "Solve: d/dx (ln(x² + 1))",
+          "A": "2x",
+          "B": "2x/(x² + 1)",
+          "C": "1/(x² + 1)",
+          "D": "x/(x² + 1)",
+          "Correct": "B"
+        }
+      }
+    }
+  },
+  "Science": {
+    "Easy": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What is the chemical symbol for Oxygen??",
+          "A": "Ox",
+          "B": "O",
+          "C": "Om",
+          "D": "Og",
+          "Correct": "B"
+        },
+        "1": {
+          "question": "Which state of matter has a fixed shape and volume?",
+          "A": "Liquid",
+          "B": "Gas",
+          "C": "Solid",
+          "D": "Plasma",
+          "Correct": "C"
+        },
+        "2": {
+          "question": "Table salt is made of which two elements?",
+          "A": "Na and Cl",
+          "B": "C and O",
+          "C": "H and O",
+          "D": "K and Br",
+          "Correct": "A"
+        },
+        "3": {
+          "question": "What is the pH of pure water?",
+          "A": "1",
+          "B": "5",
+          "C": "7",
+          "D": "10",
+          "Correct": "C"
+        },
+        "4": {
+          "question": "Which gas is essential for human respiration?",
+          "A": "CO₂",
+          "B": "O₂",
+          "C": "He",
+          "D": "N₂",
+          "Correct": "B"
+        },
+        "5": {
+          "question": "What is the unit of force?",
+          "A": "Joule",
+          "B": "Newton",
+          "C": "Watt",
+          "D": "Pascal",
+          "Correct": "B"
+        },
+        "6": {
+          "question": "What energy does a moving object have?",
+          "A": "Potential",
+          "B": "Kinetic",
+          "C": "Thermal",
+          "D": "Electric",
+          "Correct": "B"
+        },
+        "7": {
+          "question": "What is the acceleration due to gravity on Earth?",
+          "A": "1 m/s²",
+          "B": "5.5 m/s²",
+          "C": "9.8 m/s²",
+          "D": "15 m/s²",
+          "Correct": "C"
+        },
+        "8": {
+          "question": "Sound travels fastest through:",
+          "A": "Air",
+          "B": "Water",
+          "C": "Vacuum",
+          "D": "Steel",
+          "Correct": "D"
+        },
+        "9": {
+          "question": "What is the symbol for electric current?",
+          "A": "V",
+          "B": "R",
+          "C": "I",
+          "D": "C",
+          "Correct": "C"
+        }
+      }
+    },
+    "Medium": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "Which type of bond is formed by transferring electrons?",
+          "A": "Covalent",
+          "B": "Metallic",
+          "C": "Hydraulic",
+          "D": "Ionic",
+          "Correct": "D"
+        },
+        "1": {
+          "question": "What is the atomic number of Carbon?",
+          "A": "4",
+          "B": "6",
+          "C": "8",
+          "D": "12",
+          "Correct": "B"
+        },
+        "2": {
+          "question": "Which acid is present in lemon juice?",
+          "A": "Sulfuric acid",
+          "B": "Nitric acid",
+          "C": "Citric acid",
+          "D": "Hydrochloric acid",
+          "Correct": "C"
+        },
+        "3": {
+          "question": "What happens during oxidation?",
+          "A": "Gain of electrons",
+          "B": "Loss of electrons",
+          "C": "Protons split",
+          "D": "Atoms fuse",
+          "Correct": "B"
+        },
+        "4": {
+          "question": "Which technique separates pigments on paper?",
+          "A": "Distillation",
+          "B": "Filtration",
+          "C": "Chromatography",
+          "D": "Centrifugation",
+          "Correct": "C"
+        },
+        "5": {
+          "question": "What is Ohm’s law?",
+          "A": "F = ma",
+          "B": "V = IR",
+          "C": "P = mv",
+          "D": "E = mc²",
+          "Correct": "B"
+        },
+        "6": {
+          "question": "Which quantity is a vector?",
+          "A": "Speed",
+          "B": "Mass",
+          "C": "Distance",
+          "D": "Acceleration",
+          "Correct": "D"
+        },
+        "7": {
+          "question": "A convex lens is also called a:",
+          "A": "Diverging lens",
+          "B": "Converging lens",
+          "C": "Neutral lens",
+          "D": "Negative lens",
+          "Correct": "B"
+        },
+        "8": {
+          "question": "What happens to frequency when wavelength increases (speed constant)?",
+          "A": "It increases",
+          "B": "It decreases",
+          "C": "It stays the same",
+          "D": "It becomes zero",
+          "Correct": "B"
+        },
+        "9": {
+          "question": "Which wave phenomenon explains echoes?",
+          "A": "Refraction",
+          "B": "Reflection",
+          "C": "Diffraction",
+          "D": "Interference",
+          "Correct": "B"
+        }
+      }
+    },
+    "Hard": {
+      "MetaData": {},
+      "Tasks": {
+        "0": {
+          "question": "What is the geometry of a methane (CH₄) molecule?",
+          "A": "Linear",
+          "B": "Bent",
+          "C": "Tetrahedral",
+          "D": "Trigonal planar",
+          "Correct": "C"
+        },
+        "1": {
+          "question": "What is the hybridization of carbon in ethylene (C₂H₄)?",
+          "A": "sp",
+          "B": "sp²",
+          "C": "sp³",
+          "D": "sp³d",
+          "Correct": "B"
+        },
+        "2": {
+          "question": "Which of the following is NOT a colligative property?",
+          "A": "Osmotic pressure",
+          "B": "Boiling point elevation",
+          "C": "Vapor pressure lowering",
+          "D": "Density",
+          "Correct": "D"
+        },
+        "3": {
+          "question": "What is the name of the process where a solid turns directly into gas?",
+          "A": "Sublimation",
+          "B": "Deposition",
+          "C": "Evaporation",
+          "D": "Condensation",
+          "Correct": "A"
+        },
+        "4": {
+          "question": "Which gas deviates most from ideal behavior?",
+          "A": "He",
+          "B": "H₂",
+          "C": "CO₂",
+          "D": "Ne",
+          "Correct": "C"
+        },
+        "5": {
+          "question": "Which law explains buoyant force?",
+          "A": "Newton’s 3rd law",
+          "B": "Archimedes’ principle",
+          "C": "Bernoulli’s principle",
+          "D": "Gauss’s law",
+          "Correct": "B"
+        },
+        "6": {
+          "question": "What is the work done if force is perpendicular to displacement?",
+          "A": "Maximum",
+          "B": "Minimum",
+          "C": "Zero",
+          "D": "Infinity",
+          "Correct": "C"
+        },
+        "7": {
+          "question": "What is the relativistic effect observed at speeds close to light?",
+          "A": "Time contraction",
+          "B": "Mass evaporation",
+          "C": "Time dilation",
+          "D": "Frequency stopping",
+          "Correct": "C"
+        },
+        "8": {
+          "question": "Which phenomenon proves light behaves like a wave?",
+          "A": "Photoelectric effect",
+          "B": "Thermal emission",
+          "C": "Wave interference",
+          "D": "Blackbody spectrum",
+          "Correct": "C"
+        },
+        "9": {
+          "question": "What is the unit of electric flux?",
+          "A": "Weber",
+          "B": "Volt",
+          "C": "Tesla",
+          "D": "Newton-meter² per coulomb",
+          "Correct": "D"
+        }
+      }
+    }
+  }
+}
