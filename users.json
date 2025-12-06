@@ -1,5 +1,30 @@
 {
-    "Brik": {},
-    "Anton": {},
-    "Dasha": {}
+    "Brik": {
+        "password": "cap",
+        "stats": {
+            "counter_of_tasks": 0,
+            "xp": 0
+        }
+    },
+    "Anton": {
+        "password": "cap",
+        "stats": {
+            "counter_of_tasks": 0,
+            "xp": 0
+        }
+    },
+    "A": {
+        "password": "123",
+        "stats": {
+            "counter_of_tasks": 0,
+            "xp": 0
+        }
+    },
+    "An": {
+        "password": "123",
+        "stats": {
+            "counter_of_tasks": 0,
+            "xp": 0
+        }
+    }
 }

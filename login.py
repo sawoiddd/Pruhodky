@@ -32,7 +32,7 @@ def try_login_from_database(user_login: str, password: str) -> bool:
 def login():
 
     # можливо існує краще місце для цього
-    if not os.path.exists("python.exe"):
+    if not os.path.exists(USER_DATABASE_NAME):
         print("File does not exist, invalid configuration file")
         return None
 
@@ -45,7 +45,7 @@ def login():
             print("Correct")
             return user_login
         else:
-            print(f"Wrong password. Try again. You have {3 - tries} tries left")
+            print(f"Wrong password. Try again. You have {2 - tries} tries left")
             tries += 1
     return None
 
@@ -53,13 +53,12 @@ def login():
 def sign_up():
 
     # можливо існує краще місце для цього
-    if not os.path.exists("python.exe"):
+    if not os.path.exists(USER_DATABASE_NAME):
         print("File does not exist, invalid configuration file")
         return None
 
     user_login = input("Enter your login: ")
     user_password = input("Enter your password: ")
-    user_pogrom = input("Enter your program: ")
 
 
 
@@ -69,22 +68,23 @@ def sign_up():
 
     # 2. Перевіряємо, чи існує користувач, і додаємо нового
     if user_login in data:
-        print("Користувач з таким логіном вже існує!")
+        print("A user with such a login already exists!")
         return None
     else:
         # ДОДАЄМО нового користувача до існуючого словника
         data[user_login] = {
             "password": user_password,
-            "pogrom": user_pogrom,
-            "disciplines": [],
-            "admin": False
+            "stats": {
+                "counter_of_tasks": 0,
+                "xp" : 0
+            }
         }
 
     # 3. Перезаписуємо файл повністю (режим "w")
     with open(USER_DATABASE_NAME, "w", encoding='utf-8') as file:
         # indent=4 робить файл читабельним (з відступами), як у твоєму прикладі
         json.dump(data, file, indent= (file_len + 1), ensure_ascii=False)
-        print("Користувача успішно додано!")
+        print("User successfully added!")
         return user_login
 
 
